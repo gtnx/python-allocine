@@ -1,3 +1,5 @@
 allocine.sublime-project
 allocine.sublime-workspace
 *.pyc
+dist/*
+MANIFEST
