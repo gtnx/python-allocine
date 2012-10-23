@@ -5,11 +5,15 @@ Python Allocine
 Python Allocine provides a generic wrapper for Allocine API v3. Typical usage
 often looks like this::
 
-    #!/usr/bin/env python
+#!/usr/bin/env python
 
-    from allocine.Search import Search
+from allocine.Allocine import Allocine
 
-    Search.query("the godfather")
+results = Allocine().search("the godfather")
+movie = results.movies[0]
+print(movie.title)
+movie.getInfo()
+print(movie.synopsisShort)
 
 
 What this wrapper can do
@@ -18,6 +22,4 @@ What this wrapper can do
 This API allows you to query Allocine
 
 * Search
-
-* ReviewList
-
+* Access Person & Movies & Reviews

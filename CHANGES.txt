@@ -1,6 +1,16 @@
 # CHANGES.txt
 
 -------------------
+0.3.0 
+  * Use global dict for allocine objects (see AllocineObject._dict)
+-------------------
+
+-------------------
+0.2.0 
+  * main class: Allocine
+-------------------
+
+-------------------
 0.1.0 
   * Original release
 -------------------

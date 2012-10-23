@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='allocine-wrapper',
-    version='0.1.0',
+    version='0.3.0',
     author='Guillaume Thomas',
     author_email='guillaume.thomas642@gmail.com',
     packages=['allocine'],
